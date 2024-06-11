@@ -13,6 +13,8 @@ class FrontendController extends Controller
 
     public function create()
     {
+        // return $request;
+
         return view('frontend.create');
     }
 
@@ -20,4 +22,8 @@ class FrontendController extends Controller
     {
         return view('frontend.list');
     }
+    // public function saveDetail(Request $request)
+    // {
+    //     // Category::create
+    // }
 }

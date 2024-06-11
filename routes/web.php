@@ -21,3 +21,4 @@ Route::get('/', function () {
 Route::get('/index', [FrontendController::class, 'index'])->name('index');
 Route::get('/create', [FrontendController::class, 'create'])->name('create');
 Route::get('/list', [FrontendController::class, 'list'])->name('list');
+Route::post('/saveDetail', [FrontendController::class, 'saveDetail'])->name('saveDetail');
